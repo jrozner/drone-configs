@@ -1,5 +1,5 @@
 # version
-# Betaflight / KAKUTEF4V2 (KTV2) 3.3.1 Apr  3 2018 / 09:43:29 (4b7eaf79d) MSP API: 1.37
+# Betaflight / KAKUTEF4V2 (KTV2) 3.3.2 May  4 2018 / 09:39:46 (64a292f37) MSP API: 1.38
 
 # name
 
@@ -13,8 +13,9 @@
 
 
 # feature
-feature MOTOR_STOP
 feature LED_STRIP
+feature ANTI_GRAVITY
+feature DYNAMIC_FILTER
 
 # beeper
 
@@ -56,6 +57,7 @@ set blackbox_device = SPIFLASH
 set dshot_idle_value = 200
 set motor_pwm_protocol = DSHOT1200
 set current_meter = ADC
+set small_angle = 180
 set osd_vbat_pos = 2467
 set osd_rssi_pos = 40
 set osd_tim_1_pos = 54
